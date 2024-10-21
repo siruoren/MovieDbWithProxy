@@ -21,9 +21,9 @@ Emby TMDB 刮削器的代理插件
 
 
 ```
-mv /volume1/Test/MovieDbProxy.dll /volume1/@appdata/EmbyServer/plugins
-chown emby:emby /volume1/@appdata/EmbyServer/plugins/MovieDbProxy.dll
-chmod 644 /volume1/@appdata/EmbyServer/plugins/MovieDbProxy.dll
+mv /volume1/Test/MovieDbWithProxy.dll /volume1/@appdata/EmbyServer/plugins
+chown emby:emby /volume1/@appdata/EmbyServer/plugins/MovieDbWithProxy.dll
+chmod 644 /volume1/@appdata/EmbyServer/plugins/MovieDbWithProxy.dll
 ```
 
 
@@ -33,7 +33,7 @@ chmod 644 /volume1/@appdata/EmbyServer/plugins/MovieDbProxy.dll
 ### 重启EMBY
 
 ### 进入EMBY设置，点击插件
-找到TheMovieDbProxy，点击配置，输入代理地址信息，点击保存
+找到MovieDbWithProxy，点击配置，输入代理地址信息，点击保存
 
 
 ### 使用插件
